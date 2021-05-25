@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+header {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+footer {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: cadetblue;
+  background-color: azure;
+}
+
+body .center {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+body .center button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  color: chocolate;
+  font-size: 1em;
+  font-weight: 600;
+  border: 1.5px solid chocolate;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+body .center ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+  margin: 20px 0;
+  list-style: none;
+}
+
+body .center ul a {
+  color: inherit;
+  text-decoration: none;
+}
+

@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>laravel-base-crud</title>
+
+    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
 </head>
 <body>
-    
-    @include('components.header')
 
-    @yield('content')
+    <div class="center">
 
-    @include('components.footer')
+        @include('components.header')
+        
+        @yield('content')
+        
+        @include('components.footer')
+        
+    </div>
 
 </body>
 </html>
