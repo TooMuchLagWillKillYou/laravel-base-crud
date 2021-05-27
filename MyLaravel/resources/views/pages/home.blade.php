@@ -2,7 +2,7 @@
 
 @section('content')
     
-    <a href="{{ route('addOspite') }}">
+    <a href="{{ route('create') }}">
         <button>Add New</button>
     </a>
 

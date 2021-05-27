@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MyController@home')->name('home');
+Route::get('/ospiti', 'MyController@home')->name('home');
 
-Route::get('/ospite/{id}', 'MyController@ospite')->name('ospite');
+Route::get('/ospiti/{id}', 'MyController@ospite')->name('ospite');
 
-Route::get('/add/ospite', 'MyController@addOspite')->name('addOspite');
+Route::get('/ospiti/create', 'MyController@createGuest')->name('create');
 
-Route::post('/form', 'MyController@submitForm')->name('submitForm');
+Route::post('/store', 'MyController@storeGuest')->name('update');
 
